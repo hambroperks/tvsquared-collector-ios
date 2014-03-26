@@ -1,0 +1,335 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20AA4EDC18E3676700712DB1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 20AA4EDB18E3676700712DB1 /* Default-568h@2x.png */; };
+		20CFABF218E33EFA00E06099 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20CFABF118E33EFA00E06099 /* UIKit.framework */; };
+		20CFABF418E33EFA00E06099 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20CFABF318E33EFA00E06099 /* Foundation.framework */; };
+		20CFABF618E33EFA00E06099 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20CFABF518E33EFA00E06099 /* CoreGraphics.framework */; };
+		20CFABFC18E33EFA00E06099 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 20CFABFA18E33EFA00E06099 /* InfoPlist.strings */; };
+		20CFABFE18E33EFA00E06099 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 20CFABFD18E33EFA00E06099 /* main.m */; };
+		20CFAC0218E33EFA00E06099 /* TVSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 20CFAC0118E33EFA00E06099 /* TVSAppDelegate.m */; };
+		20CFAC0518E33EFA00E06099 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20CFAC0318E33EFA00E06099 /* MainStoryboard_iPhone.storyboard */; };
+		20CFAC0818E33EFA00E06099 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20CFAC0618E33EFA00E06099 /* MainStoryboard_iPad.storyboard */; };
+		20CFAC0B18E33EFA00E06099 /* TVSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20CFAC0A18E33EFA00E06099 /* TVSViewController.m */; };
+		20CFAC1318E3438100E06099 /* TVSquaredCollector.m in Sources */ = {isa = PBXBuildFile; fileRef = 20CFAC1218E3438100E06099 /* TVSquaredCollector.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		20AA4EDB18E3676700712DB1 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		20CFABED18E33EFA00E06099 /* TVSquaredCollectorSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TVSquaredCollectorSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		20CFABF118E33EFA00E06099 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		20CFABF318E33EFA00E06099 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		20CFABF518E33EFA00E06099 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		20CFABF918E33EFA00E06099 /* TVSquaredCollectorSample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TVSquaredCollectorSample-Info.plist"; sourceTree = "<group>"; };
+		20CFABFB18E33EFA00E06099 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		20CFABFD18E33EFA00E06099 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		20CFABFF18E33EFA00E06099 /* TVSquaredCollectorSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TVSquaredCollectorSample-Prefix.pch"; sourceTree = "<group>"; };
+		20CFAC0018E33EFA00E06099 /* TVSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TVSAppDelegate.h; sourceTree = "<group>"; };
+		20CFAC0118E33EFA00E06099 /* TVSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TVSAppDelegate.m; sourceTree = "<group>"; };
+		20CFAC0418E33EFA00E06099 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		20CFAC0718E33EFA00E06099 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		20CFAC0918E33EFA00E06099 /* TVSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TVSViewController.h; sourceTree = "<group>"; };
+		20CFAC0A18E33EFA00E06099 /* TVSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TVSViewController.m; sourceTree = "<group>"; };
+		20CFAC1118E3438100E06099 /* TVSquaredCollector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TVSquaredCollector.h; sourceTree = "<group>"; };
+		20CFAC1218E3438100E06099 /* TVSquaredCollector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TVSquaredCollector.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20CFABEA18E33EF900E06099 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20CFABF218E33EFA00E06099 /* UIKit.framework in Frameworks */,
+				20CFABF418E33EFA00E06099 /* Foundation.framework in Frameworks */,
+				20CFABF618E33EFA00E06099 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20CFABE218E33EF900E06099 = {
+			isa = PBXGroup;
+			children = (
+				20AA4EDB18E3676700712DB1 /* Default-568h@2x.png */,
+				20CFABF718E33EFA00E06099 /* TVSquaredCollectorSample */,
+				20CFABF018E33EFA00E06099 /* Frameworks */,
+				20CFABEE18E33EFA00E06099 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		20CFABEE18E33EFA00E06099 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20CFABED18E33EFA00E06099 /* TVSquaredCollectorSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20CFABF018E33EFA00E06099 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				20CFABF118E33EFA00E06099 /* UIKit.framework */,
+				20CFABF318E33EFA00E06099 /* Foundation.framework */,
+				20CFABF518E33EFA00E06099 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		20CFABF718E33EFA00E06099 /* TVSquaredCollectorSample */ = {
+			isa = PBXGroup;
+			children = (
+				20CFAC0018E33EFA00E06099 /* TVSAppDelegate.h */,
+				20CFAC0118E33EFA00E06099 /* TVSAppDelegate.m */,
+				20CFAC0318E33EFA00E06099 /* MainStoryboard_iPhone.storyboard */,
+				20CFAC0618E33EFA00E06099 /* MainStoryboard_iPad.storyboard */,
+				20CFAC0918E33EFA00E06099 /* TVSViewController.h */,
+				20CFAC0A18E33EFA00E06099 /* TVSViewController.m */,
+				20CFAC1118E3438100E06099 /* TVSquaredCollector.h */,
+				20CFAC1218E3438100E06099 /* TVSquaredCollector.m */,
+				20CFABF818E33EFA00E06099 /* Supporting Files */,
+			);
+			path = TVSquaredCollectorSample;
+			sourceTree = "<group>";
+		};
+		20CFABF818E33EFA00E06099 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				20CFABF918E33EFA00E06099 /* TVSquaredCollectorSample-Info.plist */,
+				20CFABFA18E33EFA00E06099 /* InfoPlist.strings */,
+				20CFABFD18E33EFA00E06099 /* main.m */,
+				20CFABFF18E33EFA00E06099 /* TVSquaredCollectorSample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		20CFABEC18E33EF900E06099 /* TVSquaredCollectorSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20CFAC0E18E33EFA00E06099 /* Build configuration list for PBXNativeTarget "TVSquaredCollectorSample" */;
+			buildPhases = (
+				20CFABE918E33EF900E06099 /* Sources */,
+				20CFABEA18E33EF900E06099 /* Frameworks */,
+				20CFABEB18E33EF900E06099 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TVSquaredCollectorSample;
+			productName = TVSquaredCollectorSample;
+			productReference = 20CFABED18E33EFA00E06099 /* TVSquaredCollectorSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		20CFABE418E33EF900E06099 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TVS;
+				LastUpgradeCheck = 0510;
+				TargetAttributes = {
+					20CFABEC18E33EF900E06099 = {
+						DevelopmentTeam = 5A987RM2WN;
+					};
+				};
+			};
+			buildConfigurationList = 20CFABE718E33EF900E06099 /* Build configuration list for PBXProject "TVSquaredCollectorSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 20CFABE218E33EF900E06099;
+			productRefGroup = 20CFABEE18E33EFA00E06099 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				20CFABEC18E33EF900E06099 /* TVSquaredCollectorSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		20CFABEB18E33EF900E06099 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20CFABFC18E33EFA00E06099 /* InfoPlist.strings in Resources */,
+				20AA4EDC18E3676700712DB1 /* Default-568h@2x.png in Resources */,
+				20CFAC0518E33EFA00E06099 /* MainStoryboard_iPhone.storyboard in Resources */,
+				20CFAC0818E33EFA00E06099 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		20CFABE918E33EF900E06099 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20CFABFE18E33EFA00E06099 /* main.m in Sources */,
+				20CFAC0218E33EFA00E06099 /* TVSAppDelegate.m in Sources */,
+				20CFAC0B18E33EFA00E06099 /* TVSViewController.m in Sources */,
+				20CFAC1318E3438100E06099 /* TVSquaredCollector.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		20CFABFA18E33EFA00E06099 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20CFABFB18E33EFA00E06099 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		20CFAC0318E33EFA00E06099 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20CFAC0418E33EFA00E06099 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		20CFAC0618E33EFA00E06099 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20CFAC0718E33EFA00E06099 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		20CFAC0C18E33EFA00E06099 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		20CFAC0D18E33EFA00E06099 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		20CFAC0F18E33EFA00E06099 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TVSquaredCollectorSample/TVSquaredCollectorSample-Prefix.pch";
+				INFOPLIST_FILE = "TVSquaredCollectorSample/TVSquaredCollectorSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		20CFAC1018E33EFA00E06099 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TVSquaredCollectorSample/TVSquaredCollectorSample-Prefix.pch";
+				INFOPLIST_FILE = "TVSquaredCollectorSample/TVSquaredCollectorSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20CFABE718E33EF900E06099 /* Build configuration list for PBXProject "TVSquaredCollectorSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20CFAC0C18E33EFA00E06099 /* Debug */,
+				20CFAC0D18E33EFA00E06099 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20CFAC0E18E33EFA00E06099 /* Build configuration list for PBXNativeTarget "TVSquaredCollectorSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20CFAC0F18E33EFA00E06099 /* Debug */,
+				20CFAC1018E33EFA00E06099 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 20CFABE418E33EF900E06099 /* Project object */;
+}
