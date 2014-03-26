@@ -12,7 +12,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    _collector = [[TVSquaredCollector alloc] initTracker:@"collector.tvsquared.com" siteid:@"1"];
+    _collector = [[TVSquaredCollector alloc] initTracker:@"<COLLECTORHOSTNAME>" siteid:@"<COLLECTORSITEID>"];
 }
 
 - (void)viewDidUnload
