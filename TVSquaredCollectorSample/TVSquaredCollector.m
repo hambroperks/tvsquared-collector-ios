@@ -83,7 +83,7 @@
     [custom5 addObject:[self json:v5]];
 
     NSMutableDictionary *cvar = [NSMutableDictionary dictionary];
-    [cvar setObject:[self json:custom5] forKey:@"5"];
+    [cvar setObject:custom5 forKey:@"5"];
     
     [params setObject:[self json:cvar] forKey:@"_cvar"];
 }
@@ -103,7 +103,7 @@
     [custom5 addObject:[self json:v5]];
 
     NSMutableDictionary *cvar = [NSMutableDictionary dictionary];
-    [cvar setObject:[self json:custom5] forKey:@"5"];
+    [cvar setObject:custom5 forKey:@"5"];
     
     [params setObject:[self json:cvar] forKey:@"cvar"];
 }
