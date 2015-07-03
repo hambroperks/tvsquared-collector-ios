@@ -14,6 +14,6 @@ s.summary 	     = "TVSquared"
 s.homepage         = "https://app.tvsquared.com"
 s.license          = { :type => 'Apache License, Version 2.0', :file => 'LICENSE.txt' }
 
-s.source_files = 'TVSquaredCollectorSample/*.{h,m}'
+s.source_files = 'TVSquaredCollectorSample/*.{h,m}','*.txt'
 
 end
