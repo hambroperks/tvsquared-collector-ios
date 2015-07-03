@@ -12,7 +12,7 @@ s.author           = { "Marcus Smith" => "m_badenochsmith@yahoo.co.uk" }
 s.source           = { :git => "git@github.com:hambroperks/tvsquared-collector-ios.git" }
 s.summary 	     = "TVSquared"
 s.homepage         = "https://app.tvsquared.com"
-s.license          = { :type => 'Apache License, Version 2.0', :file => 'LICENSE' }
+s.license          = { :type => 'Apache License, Version 2.0', :file => 'LICENSE.txt' }
 
 s.source_files = 'TVSquaredCollectorSample/*.{h,m}'
 
